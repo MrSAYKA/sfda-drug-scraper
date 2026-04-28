@@ -62,7 +62,13 @@ def scrape_sfda_5_pages():
                "Size", "Size Unit", "Package Type", "Package Size", "Dispensing Method",
                "Monitoring", "Validity Period", "Storage Conditions", "Manufacturing Company",
                "Country of Manufacture", "Marketing Company", "Country of Marketing Company",
-               "First Agent", "Second Agent", "Third Agent", "Classification", "Price",
+cd C:\Users\imsvg\IdeaProjects\webscrapper
+git init
+git add .
+git commit -m "SFDA Drug Scraper - Web scraping with Selenium and Excel export"
+git remote add origin https://github.com/MrSAYKA/webscrapper.git
+git branch -M main
+git push -u origin main               "First Agent", "Second Agent", "Third Agent", "Classification", "Price",
                "Registration Status", "Marketing Status", "Report", "Pharmacological Code"]
     sheet.append(headers)
 
